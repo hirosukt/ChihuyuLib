@@ -1,0 +1,8 @@
+name: ChihuyuLib
+version: '0.0.1'
+main: love.chihuyu.chihuyulib.ChihuyuLib
+api-version: 1.18
+prefix: CHL
+authors: [ Hirosuke ]
+description: Utility library for chihuyu loving.
+website: works.hirosuke
