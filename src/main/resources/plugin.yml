@@ -6,3 +6,14 @@ prefix: CHL
 authors: [ Hirosuke ]
 description: Utility library for chihuyu loving.
 website: works.hirosuke
+commands:
+  chihuyu:
+    aliases:
+      - cl
+permissions:
+  chihuyu.command.*:
+    default: op
+    children:
+      chihuyu.command.chihuyu: true
+  chihuyu.command.chihuyu:
+    default: op
