@@ -38,5 +38,5 @@ abstract class Command(private val name: String) : CommandExecutor, TabCompleter
     /**
      * コマンド引数の補完処理
      */
-    abstract fun onTabComplete(sender: CommandSender, label: String, args: Array<out String>): List<String>?
+    abstract fun onTabComplete(sender: CommandSender, label: String, args: Array<out String>): List<String>
 }
