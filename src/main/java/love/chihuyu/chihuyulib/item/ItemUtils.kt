@@ -1,4 +1,4 @@
-package love.chihuyu.chihuyulib.util
+package love.chihuyu.chihuyulib.item
 
 import org.bukkit.Material
 import org.bukkit.enchantments.Enchantment
