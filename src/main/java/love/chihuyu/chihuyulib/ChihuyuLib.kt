@@ -14,6 +14,7 @@ class ChihuyuLib : JavaPlugin() {
 
     override fun onEnable() {
         logger.info("ChihuyuLib has loaded.")
+        config.options().copyDefaults(true)
     }
 
     override fun onDisable() {
